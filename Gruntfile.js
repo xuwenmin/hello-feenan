@@ -11,12 +11,12 @@ module.exports = function(grunt) {
         },
         'gh-pages': {
             options: {
-                clone: 'bower_components/my-repo'
+                clone: 'bower_components/feenan-element'
             },
             src: [
                 'bower_components/**/*',
-                '!bower_components/my-repo/**/*',
-                'demo/*', 'src/*', 'index.html'
+                '!bower_components/feenan-element/**/*',
+                'src/*', 'index.html'
             ]
         },
         'replace': {
