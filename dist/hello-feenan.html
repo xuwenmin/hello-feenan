@@ -1,0 +1,17 @@
+<!-- Import Polymer -->
+<link rel="import" href="../../polymer/polymer.html">
+
+<!-- Define your custom element -->
+<polymer-element name="hello-feenan" attributes="who">
+
+    <template>
+        <p>Hello <strong>{{who}}</strong> :)</p>
+    </template>
+
+    <script>
+        Polymer('hello-feenan', {
+            who: 'Feenan'
+        });
+    </script>
+
+</polymer-element>
