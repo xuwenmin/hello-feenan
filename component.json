@@ -1,0 +1,16 @@
+{
+"name": "hello-feenan",
+"version": "1.0.0",
+"main": "dist/hello-feenan.html",
+"dependencies": {
+    "platform": "Polymer/platform#~0.2.3",
+    "polymer": "Polymer/polymer#~0.2.3"
+}
+"readmeFilename": "README.md",
+"_id": "hello-feenan@1.0.0",
+"description": "Web component for feenan",
+"repository": {
+	"type": "git",
+	"url": "git://github.com/xuwenmin/hello-feenan.git"
+	}	
+}
