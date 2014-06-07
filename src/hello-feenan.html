@@ -2,15 +2,17 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
 <!-- Define your custom element -->
-<polymer-element name="hello-feenan" attributes="who">
+<polymer-element name="hello-feenan" attributes="who,abc">
 
     <template>
         <p>Hello <strong>{{who}}</strong> :)</p>
+        <p>{{abc}}</p>
     </template>
 
     <script>
         Polymer('hello-feenan', {
-            who: 'Feenan'
+            who: 'Feenan',
+            abc: 'haha'
         });
     </script>
 
